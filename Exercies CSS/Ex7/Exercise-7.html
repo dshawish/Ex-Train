@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise #7</title>
+    <style>
+        p, ul{
+            font-size: 1.3rem;
+        }
+        
+        span{
+            color: orange;
+            text-decoration: underline;
+        }
+
+        li span {
+            color: red;
+        }
+
+        ul.new-edit > li{
+            margin-top: 2%;
+            color: black;
+        }
+
+        ul{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 style="text-decoration: underline;">Have Fun while Styling !</h2>
+    <hr style="height: 1px;">
+    <p style="color:blue"> Here is a text <span>with a link</span>. Let's do it !</p>
+    <p> We have more <span>links</span> here ;</p>
+    <p> This is a (<span style="background-color: yellow;">links</span>?).</p>
+    <p> We have a list</p>
+
+    <ul class="new-edit">
+        <li style="font-weight: bold;">Please, <span>Click Me!</span></li>
+        <li>Can you ? let's count
+            <ul>
+                <li style="font-weight: bold;">111</li>
+                <li>222 <span>Another Link</span></li>
+                <li>333
+                    <ul style="list-style: none;">
+                        <li style="font-weight: bold;">red</li>
+                        <li>green</li>
+                        <li>blue <span>Color Link</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>That's Enough !</li>
+    </ul>
+</body>
+</html>
